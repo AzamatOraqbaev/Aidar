@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nejny"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/TipText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Советы для родителей"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/Tip1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Проводите время с вашим ребенком, задавайте вопросы, выслушивайте его мнение."
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/Tip2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Поощряйте своего ребенка и поддерживайте его интересы и увлечения."
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/Tip3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Создайте уютную и безопасную обстановку в доме."
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/Tip4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Проводите время с вашим ребенком, задавайте вопросы, выслушивайте его мнение."
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/Tip5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Проводите время с вашим ребенком, задавайте вопросы, выслушивайте его мнение."
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/Tip6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Проводите время с вашим ребенком, задавайте вопросы, выслушивайте его мнение."
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/Tip7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Проводите время с вашим ребенком, задавайте вопросы, выслушивайте его мнение."
+            android:textSize="20sp"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/Tip8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Проводите время с вашим ребенком, задавайте вопросы, выслушивайте его мнение."
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"/>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

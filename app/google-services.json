@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "769094777587",
+    "firebase_url": "https://aidar3-7119b-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "aidar3-7119b",
+    "storage_bucket": "aidar3-7119b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769094777587:android:7139674654b1cbf8f05586",
+        "android_client_info": {
+          "package_name": "com.example.diplom4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5_2iRXF-TLYaZhId-wRrIqk_gx9NNk1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

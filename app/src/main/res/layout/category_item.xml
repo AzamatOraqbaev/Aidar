@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/nejny"
+    >
+        <LinearLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:background="@color/nejny"
+            android:clipChildren="true">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="210dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="25dp"
+                android:background="@color/nejny">
+
+                <ImageView
+                    android:id="@+id/categoryImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/border_background" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/categoryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:text="Category Name" />
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>
